@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="./style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        
+    </head>
+    
+    <body class="mh-100" style="height: 100vh;">
+        <div class="container d-flex justify-content-center align-items-center h-100">
+            <div class="h-50 col-md-12 border d-flex align-items-center flex-column">
+                <h1 class="mt-md-3">Chuyển đổi số nguyên dương sang số LA MÃ</h1>
+                <p>Nhập số nguyên dương cần đổi</p>
+                <form class="my-auto w-50">
+                    <div class="form-group w-100">
+                        <input id="decimal" class="form-control w-100 h-100" placeholder="Nhập số nguyên dương cần đổi">
+                        
+                        <div class="invalid-feedback">
+                            Số bạn nhập phải là số nguyên dương và nhỏ hơn 5000.
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <h1 id="num" class="text-center"></h1>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+    <script src="./app.js">
+    
+    </script>
+</html>
